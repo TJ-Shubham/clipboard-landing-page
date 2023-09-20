@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:  https://github.com/TJ-Shubham/clipboard-landing-page
-- Live Site URL: https://tj-shubham.github.io/clipboard-landing-page/
+- Solution URL:  [Link](https://github.com/TJ-Shubham/clipboard-landing-page)
+- Live Site URL: [Link](https://tj-shubham.github.io/clipboard-landing-page/)
 
 ## My process
 
