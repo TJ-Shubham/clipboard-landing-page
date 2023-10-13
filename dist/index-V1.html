@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="description" content="clipboarad landing page">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="output.css">
+  <title>Clipboard landing page</title> 
+</head>
+<body class="font-display">
+  <header class="flex flex-col items-center text-center">
+    <div class="w-full h-full px-0 pt-20 mb-4 bg-pattern md:bg-hero-pattern bg-cover bg-no-repeat flex items-center justify-center">
+      <img src="../images/logo.svg" alt="clipboard landing page logo">
+    </div>
+    <div>
+      <h1 class="text-3xl font-bold p-4 text-color1 md:text-4xl">A history of everything you copy</h1>
+      <p class="text-base px-6 text-color2 md:max-w-xl md:text-lg">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+      <div class="px-0 py-12">
+        <button class="h-12 w-4/5 md:w-2/5  md:mr-4 mb-7 rounded-[50px] border-none  text-lg text-white cursor-pointer bg-color3 hover:opacity-75 shadow-4xl">Download for iOS</button>
+        <button class="h-12 w-4/5 md:w-2/5 rounded-[50px] border-none  text-lg text-white cursor-pointer bg-color4 hover:opacity-75 shadow-5xl">Download for Mac</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="text-center py-12 px-5">
+      <h1 class="text-2xl font-bold text-color1 my-5 md:text-3xl">Keep track of your snippets</h1>
+      <p class="text-color2 text-base px-2 md:text-lg md:px-96 ">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+    </section>
+    <section class="flex flex-col text-center px-5 pb-14 md:flex-row md:items-center md:justify-between">
+      <div class="my-12 md:-mx-36">
+        <img src="../images/image-computer.png" alt="clipboard landing page computer image">
+      </div>
+      <div class="flex flex-col gap-6 md:text-left">
+        <div class="md:w-3/5">
+          <h1 class="text-2xl text-color1 font-bold mb-3">Quick Search</h1>
+          <p class="text-color2 text-base">Easily search your snippets by content, category, web address, application, and more.</p>
+        </div>
+        <div class="md:w-3/5">
+          <h1 class="text-2xl text-color1 font-bold mb-3">iCloud Sync</h1>
+          <p class="text-color2 text-base">Instantly saves and syncs snippets across all your devices.</p>
+        </div>
+        <div class="md:w-3/5">
+          <h1 class="text-2xl text-color1 font-bold mb-3">Complete History</h1>
+          <p class="text-color2 text-base">Retrieve any snippets from the first moment you started using the app.</p>
+        </div>
+      </div>
+    </section>
+    <section class="flex flex-col items-center text-center px-5 py-4">
+      <h1 class="text-3xl text-color1 font-bold my-4">Access Clipboard anywhere</h1>
+      <p class="text-color2 text-base mb-9 md:w-3/6 md:text-lg">Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+      <img src="../images/image-devices.png" alt="clipboard landing page device image">
+    </section>
+    <section class="flex flex-col items-center text-center px-5 py-9">
+      <div class="md:mb-12">
+        <h1 class="text-3xl text-color1 font-bold mb-6">Supercharge your workflow</h1>
+        <p class="text-color2 text-base md:text-lg">We’ve got the tools to boost your productivity.</p>
+      </div>
+      <div class="flex flex-col items-center justify-center my-5 gap-9 md:flex-row md:px-6">
+        <figure class="flex flex-col items-center gap-7 md:w-1/4">
+          <img src="../images/icon-blacklist.svg" alt="clipboard landing page blacklists ico">
+          <figcaption>
+            <h2 class="text-2xl text-color1 font-bold mb-5">Create blacklists</h2>
+            <p class="text-color2 text-base md:text-lg">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+          </figcaption>
+        </figure>
+        <figure class="flex flex-col items-center gap-7 md:w-1/4">
+          <img src="../images/icon-text.svg" alt="clipboard landing page text snippets icon">
+          <figcaption>
+            <h2 class="text-2xl text-color1 font-bold mb-5">Plain text snippets</h2>
+            <p class="text-color2 text-base md:text-lg">Remove unwanted formatting from copied text for a consistent look.</p>
+          </figcaption>
+        </figure>
+        <figure class="flex flex-col items-center gap-7 md:w-1/4">
+          <img src="../images/icon-preview.svg" alt="clipboard landing page Sneak preview icon">
+          <figcaption>
+            <h2 class="text-2xl text-color1 font-bold mb-5">Sneak preview</h2>
+            <p class="text-color2 text-base md:text-lg">Quick preview of all snippets on your Clipboard for easy access.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="flex flex-col items-center gap-12 py-6 md:flex-row md:justify-center">
+      <img src="../images/logo-google.png" alt="clipboard landing page logo-google">
+      <img src="../images/logo-ibm.png" alt="clipboard landing page logo-ibm">
+      <img src="../images/logo-microsoft.png" alt="clipboard landing page logo-microsoft">
+      <img src="../images/logo-hp.png" alt="clipboard landing page logo-hp">
+      <img src="../images/logo-vector-graphics.png" alt="clipboard landing page logo-vector-graphics">
+    </section>
+    <section class="text-center px-5 my-12">
+      <h1 class="text-3xl text-color1 font-bold mb-5">Clipboard for iOS and Mac OS</h1>
+      <p class="text-color2 text-base md:text-lg md:px-96">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+      <div class="px-0 py-12">
+        <button class="h-12 w-4/5 md:w-1/5 md:mr-5 mb-7 rounded-[50px] border-none  text-lg text-white cursor-pointer bg-color3 hover:opacity-75 shadow-4xl">Download for iOS</button>
+        <button class="h-12 w-4/5 md:w-1/5 rounded-[50px] border-none  text-lg text-white cursor-pointer bg-color4 hover:opacity-75 shadow-5xl">Download for Mac</button>
+      </div>
+    </section>
+  </main>
+  <footer class="flex flex-col items-center text-center py-9 gap-7 bg-slate-50 md:flex-row md:justify-around">
+    <img class="w-2/12 md:w-16" src="../images/logo.svg" alt="clipboard landing page logo">
+    <ul class="grid grid-cols-1 gap-4 font-bold text-color2 text-lg md:grid-cols-3">
+      <li><a class="hover:text-color3" href="#">FAQs</a></li>
+      <li><a class="hover:text-color3" href="#">Contact Us</a></li>
+      <li><a class="hover:text-color3" href="#">Privacy Policy</a></li>
+      <li><a class="hover:text-color3" href="#">Press Kit</a></li>
+      <li><a class="hover:text-color3" href="#">Install Guide</a></li>
+    </ul>
+    <div class="flex justify-between items-center text-color1 gap-9 mt-4">
+      <a class="hover:text-color3" href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+      <a class="hover:text-color3" href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+      <a class="hover:text-color3" href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </div>
+    <p class="text-color1 sm:hidden">
+      Challenge by <a class="font-semibold hover:text-color3" href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by <a class="font-semibold hover:text-color3" href="https://github.com/TJ-Shubham">Shubham</a>.
+    </p>
+  </footer>
+</body>
+</html>
