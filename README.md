@@ -40,6 +40,7 @@ Users should be able to:
 - Flexbox
 - Grid
 - Used media query
+- Tailwind CSS
 
 
 ### What I learned
